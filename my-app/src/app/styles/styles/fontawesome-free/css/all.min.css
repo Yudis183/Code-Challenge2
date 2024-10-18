@@ -1,0 +1,31 @@
+/* Basic Font Awesome icon styles */
+.fa, .fab, .fal, .far, .fas {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+}
+
+/* Sizes for Font Awesome icons */
+.fa-lg { font-size: 1.33333em; }
+.fa-xs { font-size: .75em; }
+.fa-sm { font-size: .875em; }
+.fa-1x { font-size: 1em; }
+.fa-2x { font-size: 2em; }
+.fa-3x { font-size: 3em; }
+.fa-4x { font-size: 4em; }
+.fa-5x { font-size: 5em; }
+
+/* Spin and pulse animations */
+.fa-spin {
+  animation: fa-spin 2s infinite linear;
+}
+
+/* Animation keyframes */
+@keyframes fa-spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
